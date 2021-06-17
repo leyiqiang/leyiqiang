@@ -4,16 +4,7 @@
     <list default="true" id="50445ec2-fdc0-4815-b7b0-1191832226f1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.icarus.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.icarus.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/post.md" beforeDir="false" afterPath="$PROJECT_DIR$/scaffolds/post.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/_posts/CPP-Best-Practices-and-Notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CPP-Best-Practices-and-Notes.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Hexo-Asset-Folders.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Hexo-Asset-Folders.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Lamport-s-Hash.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Lamport-s-Hash.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/broadcast-authentication-protocol.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/broadcast-authentication-protocol.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/nodeJS-poll-phrase-blocking-logic.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/nodeJS-poll-phrase-blocking-logic.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/padding-oracle-attack.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/padding-oracle-attack.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/reading-materials.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/reading-materials.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/strong-password-protocol.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/strong-password-protocol.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +45,7 @@
       <updated>1623838193124</updated>
       <workItem from="1623838194347" duration="3973000" />
       <workItem from="1623842830380" duration="43000" />
-      <workItem from="1623842876629" duration="6838000" />
+      <workItem from="1623842876629" duration="8593000" />
     </task>
     <servers />
   </component>

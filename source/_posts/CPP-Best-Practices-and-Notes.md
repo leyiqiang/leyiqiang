@@ -39,3 +39,4 @@ Notes taken from <https://www.learncpp.com/>
 
 ## 9.8 Introduction to pointers
 
+- The address-of operator `&` allows us to see what memory address is assigned to a variable.
