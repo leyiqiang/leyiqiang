@@ -16,7 +16,7 @@ Previous post: {% post_link Lamport-s-Hash "Lamport's Hash" %}.
 - When B receives the packet, it checks that A has not disclose the value X to  make sure the key is still secret. Then B buffers the packet.
 - B also checks the disclosed value is correct and verify MAC of this packet(base on time interval). If MAC is correct. B accept the packet.
 
-<!-- more -->
+
 ## One-Way Chains
 
 {% asset_img one-way-chain.png %}

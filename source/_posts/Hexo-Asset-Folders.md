@@ -11,7 +11,6 @@ post_asset_folder: true
 ```
 
 When you create a new post, hexo will generate an asset folder with the same name as the post.
-<!-- more -->
 
 To include assets in markdown:
 ```

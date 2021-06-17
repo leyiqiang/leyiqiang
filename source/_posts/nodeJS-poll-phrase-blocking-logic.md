@@ -6,7 +6,7 @@ categories: Learning Notes
 ---
 
 As mentioned in the [NodeJS doc](https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/#phases-overview), in poll phrase, node will **block** when appropriate. This post will discuss the block conditions and why this phrase blocks as Node should perfom a **non-blocking** I/O operations.
- <!-- more -->
+
 There are several logics in [libuv core.c](https://github.com/libuv/libuv/blob/v1.x/src/unix/core.c) 
 
 First is the [uv_run](https://github.com/libuv/libuv/blob/v1.x/src/unix/core.c#L348) function, which operates the process of entire event loop:
@@ -62,7 +62,7 @@ int uv_run(uv_loop_t* loop, uv_run_mode mode) {
   return r;
 }
 ```
-
+<!--more-->
 `uv__io_poll` takes `timeout` as the second argument. When the event loop runs `UV_RUN_DEFAULT` mode or runs under `UV_RUN_ONCE` mode with no pending query, timeout will be calculated with `uv_backend_timeout` function.
 Otherwise it is set to 0.
 Here's the [uv_backend_timeout](https://github.com/libuv/libuv/blob/v1.x/src/unix/core.c#L316) code:

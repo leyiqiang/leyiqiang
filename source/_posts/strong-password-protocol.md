@@ -9,7 +9,7 @@ Previous posts: {% post_link broadcast-authentication-protocol "The TESLA Broadc
 
 ## Requirements
 A Strong Password-Based Protocols should have these requirements:
-<!-- more -->
+
 - Prevent attackers to eavesdrop the conversation on an authentication exchange
 - Prevent attackers to obtain any information by impersonating either endpoint
 - Prevent attackers to do off-line attack *

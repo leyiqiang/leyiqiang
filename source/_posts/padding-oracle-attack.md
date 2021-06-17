@@ -9,13 +9,13 @@ categories: Learning Notes
 The system must use CBC mode with [PKCS7](https://tools.ietf.org/html/rfc2315) for the padding block.
 
 This is a chosen-ciphertext attack, The adversary can submit encrypted messages to the system, and the system will return valid or invalid as response. Assume block size is 8.
-<!-- more -->
+
 ### Background
 |Encryption   | Decryption  |
 |---|---|
 | C<sub>i</sub> = Encrypt(P<sub>i</sub> ⊕ C<sub>i-1</sub>)  |  P<sub>i</sub> = Decrypt(C<sub>i</sub> ⊕ C<sub>i-1</sub>)  |
 
-
+<!--more-->
 ### Steps
 1. For each block C[i], the attacker creates C': 
     ```

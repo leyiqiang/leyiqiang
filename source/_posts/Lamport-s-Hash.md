@@ -17,7 +17,7 @@ Suppose A wants to log into a server B, and A's work station has no user specifi
  
 - Use one time password scheme like **Lamport's Hash**
 - Use Strong password protocol
- <!-- more -->
+
 
 ## Lamport's Hash
 ### Implementations
