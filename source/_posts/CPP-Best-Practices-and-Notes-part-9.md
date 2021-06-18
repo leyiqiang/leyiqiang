@@ -1,5 +1,5 @@
 ---
-title: CPP Best Practices and Notes
+title: CPP Best Practices and Notes -- Part 9
 date: 2021-06-16 17:02:56
 tags:  [CPP]
 toc: true
@@ -109,4 +109,18 @@ going out of scope immediately afterward.
   When argument n is passed to the function, the function parameter ref is set as a reference to argument n. This allows the function to change the value of n through ref.
   
 - Pass arguments by non-const reference (rather than by pointer) when the argument needs to be modified by the function.
+
+- Pass non-pointer, non-fundamental data type variables (such as structs) by (const) reference, unless you know that passing it by value is faster.
+
+## 9.19 For-each Loops
+
+- In for-each loops element declarations, if your elements are non-fundamental types, use references or const references for performance reasons.
+
+## 9.22 An Introduction to std::array
+
+- Pass std::array by const. This is to prevent the compiler from making a copy of the std::array when the std::array was passed to the function (for performance reasons). 
+
+- Always pass std::array by reference or const reference.
+
+
 
