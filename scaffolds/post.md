@@ -1,9 +1,9 @@
 ---
 title: {{ title }}
 date: {{ date }}
-tags:
-categories:
-toc: false
+tags: [CPP]
+categories: Dev Notes
+toc: true
 ---
 [TOC]
 

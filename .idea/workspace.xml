@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="50445ec2-fdc0-4815-b7b0-1191832226f1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/CPP-Best-Practices-and-Notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CPP-Best-Practices-and-Notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scaffolds/post.md" beforeDir="false" afterPath="$PROJECT_DIR$/scaffolds/post.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +46,7 @@
       <workItem from="1623842830380" duration="43000" />
       <workItem from="1623842876629" duration="10210000" />
       <workItem from="1623974102486" duration="3677000" />
-      <workItem from="1623989421061" duration="2216000" />
+      <workItem from="1623989421061" duration="3802000" />
     </task>
     <servers />
   </component>
