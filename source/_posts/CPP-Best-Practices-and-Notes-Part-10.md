@@ -29,3 +29,23 @@ categories: Dev Notes
 - Prefer pass by reference to pass by address whenever applicable.
 
 <!--more-->
+
+### Returning values by reference and address
+
+#### Returning values by References
+- ```cpp
+  int& returnByReference()
+  {
+      static int x{ 5 }; // static ensures x isn't destroyed when the function ends
+      return x;
+  }```
+  
+- When bound to a const reference, the lifetime of the r-value is extended to match the lifetime of the reference
+
+### Inline Functions
+
+- Be aware of inline functions, but modern compilers should inline functions for you as appropriate, so there isn’t a need to use the inline keyword in this context.
+
+### Default Arguments
+
+- If the function has a forward declaration (especially one in a header file), put the default argument there. Otherwise, put the default argument in the function definition.
