@@ -67,11 +67,24 @@ categories: Dev Notes
     }
     ```
 
-# Part 11: OOD
+# Part 12: OOP
 
 ## Constructor member initializer list
 
 - Use member initializer lists to initialize your class member variables instead of assignment.
 
 ## Non-static member initialization
+
 - Favor use of non-static member initialization to give default values for your member variables.
+
+## Static member variables
+
+- static variables keep their values and are not destroyed even after they go out of scope
+
+- Static members are not associated with class objects
+
+## Static member functions
+
+- Static member functions have no *this pointer
+
+
